@@ -13,10 +13,10 @@ import org.springframework.scheduling.annotation.Scheduled;
 public class SchedulingConfig {
 
 //    @Scheduled(cron = "0/20****?")  // 注意cron表达式  http://www.manpagez.com/man/5/crontab/
-    @Scheduled(fixedRate = 5000)  // 每个5秒执行一次该函数
-    public void scheduler(){
-        System.out.println(">>>>>>>>>>SchedulingConfig.scheduler()......");
-    }
+//    @Scheduled(fixedRate = 5000)  // 每个5秒执行一次该函数
+//    public void scheduler(){
+//        System.out.println(">>>>>>>>>>SchedulingConfig.scheduler()......");
+//    }
 
 
 }

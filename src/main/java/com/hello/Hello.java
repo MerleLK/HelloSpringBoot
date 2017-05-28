@@ -2,6 +2,7 @@ package com.hello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by merle on 17-5-27.
  */
 
+@ServletComponentScan
 @RestController
 @SpringBootApplication
 public class Hello {
